@@ -8,5 +8,8 @@ public class Constants {
     public static final class IntakeWristConstants { // [ ] Intake Wrist constants
         public static final MotorConstants kMotorConstants = new MotorConstants(
             0, MotorType.kBrushless, false, IdleMode.kBrake, 40);
+
+            public static final int bottomAngle = 00;
+            public static final int topAngle = 00;
     }
 }
